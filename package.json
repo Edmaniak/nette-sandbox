@@ -1,0 +1,14 @@
+{
+  "name": "nette-sandbox",
+  "version": "1.0.0",
+  "description": "My nette sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Adam Ouhrabka",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  }
+}
