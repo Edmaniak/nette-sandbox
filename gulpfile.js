@@ -14,3 +14,7 @@ function style() {
 }
 
 gulp.task('style', style);
+
+gulp.task('watch', function () {
+	return gulp.watch(config.scssBaseDirFileMask, gulp.series('style'));
+});
